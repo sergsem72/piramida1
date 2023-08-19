@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#result, #instruction {
+    position: absolute;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+#result{
+    display: none;
+    cursor:default;
+}
+
+.content{
+    max-width: 400px;
+    padding: 50px;
+    border-radius: 20px;
+    color: blue;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px  rgb(153, 255, 0);
+}
+
+#score{
+    position: absolute;
+    color: brown;
+    font-size: 3em;
+    font-weight: bold;
+    top: 30px;
+    right: 30px;
+    text-shadow: 2px 2px 2px  rgb(255, 149, 0);
+    text-align: center;
+    line-height: 2px;
+}
